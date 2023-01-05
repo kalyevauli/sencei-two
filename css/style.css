@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Ruda:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: " Manrope", sans-serif;
+  background: white;
+}
+
+button {
+  transition: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+
+#navbar {
+  background: #FFFFFF;
+  padding: 10px 0;
+}
+#navbar .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar .navbar--nav a {
+  margin-left: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}
+#navbar .navbar button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 205px;
+  height: 54px;
+  background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+  border-radius: 9px;
+}
+#navbar .navbar button:hover {
+  transform: scale(1.1);
+}
+
+#hero {
+  background: #F7F6FF;
+  padding: 40px 0;
+}
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--logo h1 {
+  font-weight: 800;
+  font-size: 45px;
+  color: #333333;
+}
+#hero .hero--logo h1 span {
+  font-weight: 500;
+}
+#hero .hero--logo p {
+  padding: 20px 0;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+#hero .hero--btn {
+  margin-top: 30px;
+}
+#hero .hero--btn__one {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 241px;
+  height: 54px;
+  background: #77B2D3;
+  border-radius: 250px;
+}
+#hero .hero--btn__one:hover {
+  transform: scale(1.1);
+}
+#hero .hero--btn__two {
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 114px;
+  height: 54px;
+  background: #77B2D3;
+  border-radius: 250px;
+}
+#hero .hero--btn__two:hover {
+  transform: scale(1.1);
+}
+#hero .hero--btn__three {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 141px;
+  height: 54px;
+  background: #77B2D3;
+  border-radius: 250px;
+}
+#hero .hero--btn__three:hover {
+  transform: scale(1.1);
+}
+
+#part {
+  background: #F7F6FF;
+  padding: 40px 0;
+}
+#part .part {
+  width: 1170px;
+  height: 254px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+#part .part h1 {
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-left: 25px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#part .part--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#part .part--logo__line {
+  margin-top: 50px;
+  width: 86px;
+  height: 0;
+  border: 1px solid #C7C7C7;
+  transform: rotate(90deg);
+}
+#part .part--logo__one h1 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 48px;
+  background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#part .part--logo__one h1 span {
+  font-size: 30px;
+  font-weight: 600;
+}
+#part .part--logo__one p {
+  padding-right: 10px;
+  padding-left: 55px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+#will {
+  background: #F7F6FF;
+  padding: 40px 0;
+}
+#will h1 {
+  padding: 41px 0;
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#will .will {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#will .will button {
+  margin-top: 15px;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 195px;
+  height: 54px;
+  background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+  border-radius: 9px;
+}
+#will .will button:hover {
+  transform: scale(1.1);
+}
+#will .will--logo {
+  margin-left: 10px;
+  width: 220px;
+  height: 378px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+#will .will--logo__blog {
+  width: 220px;
+  height: 74px;
+  background: #77B2D3;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px 15px 0 0;
+}
+#will .will--logo__blog h2 {
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+#will .will--logo__icon {
+  display: flex;
+  align-items: start;
+  margin-top: 18px;
+  margin-left: 16px;
+}
+#will .will--logo__icon h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+#will .will--logo__icon--title {
+  margin-right: 8px;
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+  border-radius: 50%;
+}
+#will .will--logo__icon--title ion-icon {
+  color: #FFFFFF;
+}
+#will .will--logo__title {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 200px;
+  height: 0;
+  border: 1px solid #E2E2E2;
+}
+#will .will--logo__desc h4 {
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #9021AC;
+}
+#will .will--logo__desc h4 span {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#class {
+  background: #F7F6FF;
+  padding: 40px 0;
+}
+#class .class {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#class .class--logo button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 195px;
+  height: 54px;
+  background: linear-gradient(115.11deg, #9021AC 16.38%, #C8459F 84.56%);
+  border-radius: 9px;
+}
+#class .class--logo button:hover {
+  transform: scale(1.1);
+}
+#class .class--logo__input {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  width: 570px;
+  height: 141px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  border: none;
+  margin: 20px 0;
+}
+#class .class--logo h1 {
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#class .class--logo p {
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+}
+#class .class--logo__block input {
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  padding: 20px 40px;
+  border: none;
+}
+
+#alibaba {
+  background: #F7F6FF;
+  padding: 40px 0;
+}
+#alibaba h1 {
+  padding: 41px 0;
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#alibaba .alibaba {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#alibaba .alibaba ion-icon {
+  color: black;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#alibaba .alibaba--logo {
+  margin-left: 30px;
+  width: 570px;
+  height: 518px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+#alibaba .alibaba--logo__img {
+  margin-top: 20px;
+}
+#alibaba .alibaba--logo h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#alibaba .alibaba--logo img {
+  margin-left: 28px;
+  margin-top: 2px;
+}
+#alibaba .alibaba--logo p {
+  padding: 20px 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+#alibaba .alibaba--logo__blog {
+  width: 570px;
+  height: 161px;
+  background: #F3F1FE;
+}
+#alibaba .alibaba--logo__blog h2 {
+  padding: 21px 28px;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#alibaba .alibaba--logo__blog--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#alibaba .alibaba--logo__blog--block__one h3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+}
+#alibaba .alibaba--logo__blog--block__one h3 span {
+  font-weight: 800;
+  font-size: 18px;
+  color: #333333;
+}
+#alibaba .alibaba--title {
+  margin-left: 30px;
+  width: 570px;
+  height: 518px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+#alibaba .alibaba--title h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#alibaba .alibaba--title__img {
+  margin-left: 28px;
+  margin-top: 55px;
+}
+#alibaba .alibaba--title img {
+  margin-left: 28px;
+}
+#alibaba .alibaba--title p {
+  padding: 20px 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+#alibaba .alibaba--title__blog {
+  width: 570px;
+  height: 161px;
+  background: #F3F1FE;
+}
+#alibaba .alibaba--title__blog h2 {
+  padding: 21px 28px;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #333333;
+}
+#alibaba .alibaba--title__blog--block {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#alibaba .alibaba--title__blog--block__one h3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+}
+#alibaba .alibaba--title__blog--block__one h3 span {
+  font-weight: 800;
+  font-size: 18px;
+  color: #333333;
+}
+
+/*# sourceMappingURL=style.css.map */
